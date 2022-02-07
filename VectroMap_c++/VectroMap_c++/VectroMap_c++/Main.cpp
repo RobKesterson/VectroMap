@@ -1,4 +1,4 @@
-/* VectorMap software for Math 220 - linear algebra (winter 2022)
+/* VectroMap software for Math 220 - linear algebra (winter 2022)
 
 Contibutors:
 Robert S. Kesterson (RSK)
@@ -32,12 +32,15 @@ int main()
 	* /
 	*/
 
-	std::cout << "Welcome to VectroMap software! A homebrew tool for vector manipulation \n";
+	std::cout << "Welcome to VectroMap software! A homebrew tool for vector and matrix manipulation \n";
 	std::cout << "version - 1.0 \n";
 	std::cout << "\n";
-	std::cout << "State the number of 2x2 vectors (with random values from -10 to 10) you would like to initialize: \n";
 
-	std::cout << "State the number of random manipulations you'd like to perform on each vector: \n";
+	std::cout << "State the number of 2d vectors (with random values from -10 to 10) you would like to initialize: \n";
+
+	std::cout << "State the number of 2x2 matrices (with random values from -10 to 10) you would like to initialize: \n";
+
+	std::cout << "State the number of random manipulations you'd like to perform on each matrix: \n";
 
 	std::cout << "Analysis for these operations:\n";
 	std::cout << "Vector initialization run time: resource consumption: \n";

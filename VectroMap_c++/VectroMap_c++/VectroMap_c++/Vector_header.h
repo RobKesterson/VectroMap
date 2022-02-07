@@ -18,3 +18,19 @@ public:
 private:
 
 };
+
+class Matrix2d {
+public:
+	Matrix2d();
+
+private:
+
+};
+
+class Matrix3d {
+public:
+	Matrix3d();
+
+private:
+
+};
